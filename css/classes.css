@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	line-height: 1.4;
 }
 body{
     font-family: Arial, Tahoma;
@@ -31,6 +32,13 @@ a.tier3left{
 	padding-bottom: 15px;
 	font-size: 16px;
 	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:active{
+	color: #ff0000;
 }
 p.p3left{
 	margin: 5px 0px;

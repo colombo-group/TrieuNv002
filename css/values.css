@@ -9,8 +9,18 @@ div#menuTop{
 div#poster{
 	height: 400px;
 	background-image: url(../img/poster.jpg);
+	padding: 20px 0px;
+}
+div#postercontent{
+	background-image: url(../img/background1.jpg);
+	width: 360px;
+	height: 113px;
 }
 div#containpt{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/banner1.jpg);
+	background-position: center;
 }
 div#tier1{
 	padding: 40px 0px 0px 0px;
@@ -21,8 +31,9 @@ div#tier1left{
 	float: left;
 }
 p#p01{
+	text-align: justify;
 	line-height: 1.8;
-	margin-top: 20px;
+	margin: 20px 0px 15px 0px;
 }
 div#tier1right{
 	height: 100%;
