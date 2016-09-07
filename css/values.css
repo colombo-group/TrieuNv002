@@ -7,21 +7,28 @@ div#menuTop{
 	background-color: #ffffff;
 }
 div#poster{
+	position: relative;
 	height: 400px;
 	background-image: url(../img/poster.jpg);
-	padding: 20px 0px;
-}
-div#postercontent{
-	background-image: url(../img/background1.jpg);
-	width: 360px;
-	height: 113px;
+	padding: 40px 0px;
 }
 div#containpt{
 	width: 100%;
-	height: 100%;
+	height: 97%;
 	background-image: url(../img/banner1.jpg);
 	background-position: center;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+	border:10px solid #06c;
 }
+div#postercontent{
+	position: absolute;
+	top: 250px;
+	background-image: url(../img/background1.jpg);
+	width: 360px;
+	height: 73px;
+	padding: 20px 10px 20px 25px;	
+}
+
 div#tier1{
 	padding: 40px 0px 0px 0px;
 }
@@ -68,21 +75,7 @@ div#tier203{
 	background-repeat: no-repeat;
 
 }
-div#box3{
-	margin-left: 20px;
-	margin-top: 150px;
-}
-p#pbox301{
-	font-size: 22px;
-	color: #ffffff;
-	margin-bottom: 5px;
-}
-a#abox301{
-	margin-top: 15px;
-	color: #ee7f00;
-	border: 1px solid #ee7f00;
-	text-decoration: none;
-}
+
 div#tier204{
 	height: 100%;
 	float: left;
